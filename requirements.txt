@@ -1,0 +1,20 @@
+# Dependencies required to run the notebooks in notebook/ and model/notebook/.
+# NOTE: versions are NOT pinned here — the original research environment was not
+# preserved, so the exact versions used to produce the published results are
+# unknown. If you need to reproduce results exactly, pin versions yourself
+# after verifying the pipeline still runs as expected.
+
+pandas
+numpy
+openpyxl
+bertopic
+hdbscan
+umap-learn
+sentence-transformers
+scikit-learn
+konlpy
+pyBigKinds
+tqdm
+wordcloud
+matplotlib
+seaborn
